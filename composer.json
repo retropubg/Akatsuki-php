@@ -1,0 +1,12 @@
+{
+    "name": "akatsuki/bot",
+    "description": "Proyecto PHP para Railway",
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "bot/"
+        }
+    }
+}
