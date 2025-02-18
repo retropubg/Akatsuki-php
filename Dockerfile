@@ -18,7 +18,7 @@ COPY . /var/www/html/
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer     && composer install --no-dev --optimize-autoloader
 
 # Exponer el puerto 80
-EXPOSE 8080
+EXPOSE 80
 
-# Iniciar Apache en primer plano
-CMD ["apache2-foreground"]
+# Ejecutar el bot automáticamente
+CMD ["php", "bot/index.php"]
