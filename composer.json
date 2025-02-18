@@ -2,6 +2,7 @@
     "name": "akatsuki/bot",
     "description": "Proyecto PHP para Railway",
     "require": {
+        "php": ">=7.4",
         "vlucas/phpdotenv": "^5.5"
     },
     "autoload": {
