@@ -1,6 +1,6 @@
 {
   "config": {
     "platform": "php",
-    "php": "7.4.*"  // Cambia a la versión que prefieras (por ejemplo, 7.4, 8.0, etc.)
+    "php": "7.4.*"
   }
 }
