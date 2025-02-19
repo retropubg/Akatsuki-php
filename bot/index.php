@@ -2,7 +2,7 @@
 
 include('hosting.php');
 
-$botToken = '7633669044:AAHiS9PWSZkyZeHdTA6m8-6PYNf9DKitfvQ';
+$botToken = '7633669044:AAFPAjaTej2gIMNVDJXcK1AXU6qdO9TSZ-w';
 $botUrl = "$hosting/bot/";
 
 $input = json_decode(file_get_contents('php://input'), 1);
