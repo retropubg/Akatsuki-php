@@ -9,7 +9,6 @@ RUN apt-get update && apt-get install -y \
 
 # Configurar error_reporting para evitar errores de variables no definidas
 RUN echo "error_reporting = E_ALL & ~E_NOTICE & ~E_WARNING" >> /usr/local/etc/php/conf.d/error_reporting.ini
-RUN echo "https://akatsuki-php-production.up.railway.app" >> /etc/apache2/apache2.conf
 
 # Copiar archivos del bot al contenedor
 WORKDIR /var/www/html
