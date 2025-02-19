@@ -1,13 +1,6 @@
 {
-    "name": "akatsuki/bot",
-    "description": "Proyecto PHP para Railway",
-    "require": {
-        "php": ">=8.1",
-        "vlucas/phpdotenv": "^5.5"
-    },
-    "autoload": {
-        "psr-4": {
-            "App\\": "bot/"
-        }
-    }
+  "config": {
+    "platform": "php",
+    "php": "7.4.*"  // Cambia a la versión que prefieras (por ejemplo, 7.4, 8.0, etc.)
+  }
 }
