@@ -29,7 +29,7 @@ if(isset($input['message'])){
 $userlink = "<a href='tg://user?id=".$user['id'].">".$user['first_name']."</a>";
 
 $admins = [
-	'1405151206'
+	'6699273462'
 ];
 $isAdmin = in_array($user['id'], $admins);
 
